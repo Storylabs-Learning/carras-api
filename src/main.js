@@ -18,7 +18,7 @@ const router = express.Router()
 
 router.get('/', (req, res) => {
     console.log('This is / route')
-    res.send('This is / route')
+    res.send('This is / route ..........')
 })
 
 router.get('/hello', (req, res) => {    
