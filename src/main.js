@@ -25,4 +25,8 @@ router.get('/hello', (req, res) => {
     res.send('Hello')
 })
 
+router.get('/bye', (req, res) => {    
+    res.send('Bye')
+})
+
 app.use(router)
